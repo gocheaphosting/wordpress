@@ -1,6 +1,10 @@
 #!/bin/bash
-#
-#
+# this script create a domain, installs the latest wordpress
+# creates the ftp user and MySQL database.
+# Author: Johnny Chavez
+# Script:  wp_install.sh
+# date: 21 July 2016
+# version: 0.1.0
 
 if [ "$(whoami)" != 'root' ]; then
         echo "You have no permission to run $0 as non-root user. Use sudo or switch to root user!!!"
